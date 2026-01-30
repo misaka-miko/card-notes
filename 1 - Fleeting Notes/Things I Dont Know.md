@@ -1,0 +1,7 @@
+- [ ] What `CRTP` really means in `cpp`?
+- [ ] What is the proper usage of `goto` keyword in `c`?
+- [ ] How can one run assembly program?
+- [ ] How to implement a good note system?
+- [ ] How to combine the note system with learning?
+- [ ] How to learn with proper *target* ?
+- [ ] What is **Plato**'s philosophical problem?
