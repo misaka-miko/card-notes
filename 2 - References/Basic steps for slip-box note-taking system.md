@@ -2,12 +2,11 @@
 tags:
   - source/book
 time: 2026-01-30 20:55
-status: working
+status: done
 ---
 
 # References
-
-- Ahrens, S. (2022). *How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking (2nd ed.).*
+[[@ahrensHowTakeSmart2022]]
 
 # Basic steps for slip-box note-taking system
 
