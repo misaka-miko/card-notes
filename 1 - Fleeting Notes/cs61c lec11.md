@@ -66,3 +66,18 @@ RISC-V loads also uses I-format
 - the $12$-bit signed immediate is added to the base address in `rs1` to form memory address
 
 `lw x14, 8(x2)`: `0b 000000001000 00010 010 01110 0000011`
+
+S-format:
+- $0 - 6$: opcode
+- $7 - 11$: `imm`: `offset[4:0]`
+- $12 - 14$: funct3
+- $15 - 19$: `rs1`
+- $20 - 24$: `rs2`
+- $25 - 31$: `Imm`: `offset[11:5]`
+
+`sw x14, 8(x2)`: `0b 0000000 01110 00010 010 01000 0100011`
+
+funt3 for different store
+- `000`: `sb`
+- `001`: `sh`
+- `010`: `sw`
