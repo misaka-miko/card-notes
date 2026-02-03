@@ -16,7 +16,7 @@ arithmetically $\times 2^{2}$
 
 how to $\times 12$: `slli` by $4$ and $8$ then add them up
 
-`sra/srai`: we only have shift right **arthimetically**, inserting high-order sign bit into empty bits.
+`sra/srai`: we only have shift right **arithmetically**, inserting high-order sign bit into empty bits.
 
 how to get a assembly program run:
 - `foo.s` $\to$ `foo.o`: assembler
@@ -25,7 +25,7 @@ how to get a assembly program run:
 *data* and *program* live in memory, memory is byte addressable
 
 program counter, within data path, holding the address of next executing instruction
-by default we add $4$ bytes (size of a word in $32$-bits machine) to move to the next instrucion, but sometimes a branch
+by default we add $4$ bytes (size of a word in $32$-bits machine) to move to the next instruction, but sometimes a branch
 
 symbolic register names
 - `a0` - `a7` for argument registers (`x10` - `x17`) for function calls
