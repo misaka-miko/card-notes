@@ -2,12 +2,12 @@
 tags:
   - source/video
 time: 2026-02-03 18:38
-status: working
+status: done
 ---
 # References
 - [[@csZiXueSheQu9RISCVDecisions]]
 
-# logical arithmetic instructions in riscv
+# logical arithmetic instructions in RISC-V
 There are six kinds of logical arithmetic instructions in RISC-V.
 1. `and`/`andi` stands for bitwise **AND** operation in RISC-V.
 2. `or`/`ori` stands for bitwise **OR** operation in RISC-V.
