@@ -2,7 +2,7 @@
 tags:
   - source/video
 time: 2026-02-07 17:02
-status: working
+status: done
 ---
 # References
 - [[@csZiXueSheQu10RISCVProcedures_BiLiBiLi_bilibili]]
