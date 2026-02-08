@@ -14,10 +14,10 @@ branch calculation
 - if do take the branch: $PC = PC+imm \times 2$
 
 RISC-V feat: $n \times 16$-bit instructions
-to enable this, scale the branch offset by $2$ bytes even when no $16$-bit instrucions.
-can only reach $\pm 2^{10} \times 32$-bit instrucions on either side of PC
+to enable this, scale the branch offset by $2$ bytes even when no $16$-bit .
+can only reach $\pm 2^{10} \times 32$-bit  on either side of PC
 
-long immediates
+long 
 U-format
 - $0 - 6$: opcode
 - $7 - 11$: `rd`

@@ -42,7 +42,7 @@ load address `la t0, str` = `lui t0, str[31:12]` `addi t0, t0, str[11:0]`
 
 producing machine language
 - simple case: arithmetic, logical, shifts
-- info within instrucion
+- info within instruction 
 - branch and jump: pc-relative (beq bne jal)
 
 The first pass: replace pseudo and track labels
