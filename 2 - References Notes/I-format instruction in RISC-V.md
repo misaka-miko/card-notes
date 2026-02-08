@@ -29,8 +29,8 @@ I-format instructions are used for register immediate arithmetic operations and 
 | `imm[11:0]`        | `rs1` | `000` | `rd` | `0000011` | `lb`    |
 | `imm[11:0]`        | `rs1` | `001` | `rd` | `0000011` | `lh`    |
 | `imm[11:0]`        | `rs1` | `010` | `rd` | `0000011` | `lw`    |
-| `imm[11:0]`        | `rs1` | `100` | `rd` | `0000011` | `lbu`    |
-| `imm[11:0]`        | `rs1` | `101` | `rd` | `0000011` | `lhu`    |
+| `imm[11:0]`        | `rs1` | `100` | `rd` | `0000011` | `lbu`   |
+| `imm[11:0]`        | `rs1` | `101` | `rd` | `0000011` | `lhu`   |
 
 - The field of `funct3` is the almost the same as their non-immediate version in R-format, that is basically reuse the hardware.
 - The immediate for shift operations is set to only have $5$ valid bits, since we only have $32$ bits within a register, the shift exceeds 32 bits makes no sense.
