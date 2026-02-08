@@ -2,7 +2,7 @@
 tags:
   - source/video
 time: 2026-02-08 15:40
-status: working
+status: done
 ---
 # References
 - [[@csZiXueSheQu12RISCVInstruction]]

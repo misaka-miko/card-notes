@@ -6,6 +6,7 @@ status: done
 ---
 # References
 - [[@csZiXueSheQu11RISCVInstruction]]
+- [[@csZiXueSheQu12RISCVInstruction]]
 
 # I-format instruction in RISC-V
 I-format instructions are used for register immediate arithmetic operations and *load* operations. The following is the fields of I-format.
@@ -35,3 +36,4 @@ I-format instructions are used for register immediate arithmetic operations and 
 - The field of `funct3` is the almost the same as their non-immediate version in R-format, that is basically reuse the hardware.
 - The immediate for shift operations is set to only have $5$ valid bits, since we only have $32$ bits within a register, the shift exceeds 32 bits makes no sense.
 - `lh` means load half word, which is $16$ bits. `lh` and `lb` by default needs sign extension to fit into $32$ bits, and the unsigned version is also provided and controlled through the highest bit of `funct3` field.
+- `jalr` is a I-format instruction instead of a J-format-instruction. For the instruction `jalr rd, rs, imm`, it will save $PC+4$ to `rd`, which is the return address, and then set the program counter to `rs + imm`, the lowest bit is always set to $0$.
