@@ -44,9 +44,9 @@ J-format:
 uses of `jal`
 `j Label = jal x0, Label` discard return address
 
-call function within $2^{18}$ instrucions of PC
+call function within $2^{18}$ of PC
 `jal ra, FuncName`
 
 `jalr` uses I-format
 `jalr rd, rs, imm`: jump to absolute address
-`ret` and `jr` pseudo-instrucions: `ret = jr ra = jalr x0, ra, 0`
+`ret` and `jr` pseudo-: `ret = jr ra = jalr x0, ra, 0`
