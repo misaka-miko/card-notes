@@ -2,7 +2,7 @@
 tags:
   - source/video
 time: 2026-02-09 21:35
-status: working
+status: done
 ---
 # References
 - [[@csZiXueSheQu14IntroSynchronous]]
